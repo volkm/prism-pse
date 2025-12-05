@@ -14,7 +14,7 @@ docker build -t prism-pse . --platform linux/amd64
 ```
 The parameter `--platform linux/amd64` is only needed an ARM machines.
 
-When the build is successuful, the image can be run with:
+When the build is successful, the image can be run with:
 ```
 docker run -it --platform linux/amd64 prism-pse
 ```
