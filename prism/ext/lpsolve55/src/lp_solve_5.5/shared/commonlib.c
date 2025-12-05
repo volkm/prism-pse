@@ -23,6 +23,9 @@
 #ifdef FORTIFY
 # include "lp_fortify.h"
 #endif
+#ifndef FALSE
+  #define FALSE        0
+#endif
 
 #if defined FPUexception
 /* FPU exception masks */
